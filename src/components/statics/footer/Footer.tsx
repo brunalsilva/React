@@ -25,7 +25,7 @@ function Footer() {
                     </Box>
                     <Box className='box2'>
                         <Box paddingTop={1}>
-                            <Typography variant="subtitle2" align="center" gutterBottom className='texto2' >© 2020 Copyright:</Typography>
+                            <Typography variant="subtitle2" align="center" gutterBottom className='texto2' >© 2022 Copyright:</Typography>
                         </Box>
                         <Box>
                             <a target="_blank" href="https://brasil.generation.org">
