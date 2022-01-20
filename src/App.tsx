@@ -4,6 +4,7 @@ import Navbar from './components/statics/navbar/Navbar';
 import Footer from './components/statics/footer/Footer';
 import Home from './paginas/home/Home';
 import Login from './paginas/Login/Login';
+import CadastroUsuario from './paginas/cadastroUsuario/cadastroUsuario';
 import './App.css';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path='/home'>
             <Home />
+          </Route>
+          <Route path='/cadastrousuario'>
+            <CadastroUsuario />
           </Route>
         </div>
       </Switch>
