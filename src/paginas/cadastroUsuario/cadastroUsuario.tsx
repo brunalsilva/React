@@ -2,11 +2,12 @@ import React, { useState, useEffect, ChangeEvent } from 'react';
 import { useHistory } from 'react-router-dom';
 import User from '../../models/User';
 import { cadastroUsuario } from '../../services/Service';
-import { Grid, Box, Typography, TextField, Button } from "@material-ui/core";
-import { Link } from "react-router-dom";
+import { Grid, Box, Typography, Button, TextField } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import './cadastroUsuario.css';
 
 function CadastroUsuario() {
+
     let history = useHistory();
     const [confirmarSenha, setConfirmarSenha] = useState<String>("")
     const [user, setUser] = useState<User>(
@@ -54,7 +55,6 @@ function CadastroUsuario() {
             alert('Dados inconsistentes. Favor verificar as informações de cadastro.')
         }
     }
-
     return (
         <Grid container direction='row' justifyContent='center' alignItems='center'>
             <Grid item xs={6} className='imagem2'></Grid>
@@ -79,9 +79,6 @@ function CadastroUsuario() {
                     </form>
                 </Box>
             </Grid>
-
-
-
         </Grid>
     );
 }
