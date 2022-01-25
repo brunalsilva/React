@@ -1,6 +1,6 @@
 import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { Typography, Box, Grid } from '@material-ui/core';
 import './Footer.css';
@@ -12,24 +12,27 @@ function Footer() {
                 <Grid alignItems="center" item xs={12}>
                     <Box className='box1'>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                            <Typography variant="h5" align="center" gutterBottom className='texto1'>Siga-nos nas redes sociais </Typography>
+                            <Typography variant="h5" align="center" gutterBottom className='textos'>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <a href="https://github.com/brunalsilva" target="_blank">
-                                <GitHubIcon className='icons' />
+                            <a href="https://www.facebook.com/generationbrasil" target="_blank">
+                                <FacebookIcon className='redes' />
                             </a>
-                            <a href="https://www.linkedin.com/in/bruna-silva-671402224/" target="_blank">
-                                <LinkedInIcon className='icons' />
+                            <a href="https://www.instagram.com/generationbrasil/" target="_blank">
+                                <InstagramIcon className='redes' />
+                            </a>
+                            <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank">
+                                <LinkedInIcon className='redes' />
                             </a>
                         </Box>
                     </Box>
                     <Box className='box2'>
                         <Box paddingTop={1}>
-                            <Typography variant="subtitle2" align="center" gutterBottom className='texto2' >© 2022 Copyright:</Typography>
+                            <Typography variant="subtitle2" align="center" gutterBottom className='textos' >© 2020 Copyright:</Typography>
                         </Box>
                         <Box>
                             <a target="_blank" href="https://brasil.generation.org">
-                                <Typography variant="subtitle2" gutterBottom className='texto2' align="center">brasil.generation.org</Typography>
+                                <Typography variant="subtitle2" gutterBottom className='textos' align="center">brasil.generation.org</Typography>
                             </a>
                         </Box>
                     </Box>
